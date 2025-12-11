@@ -1,0 +1,66 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/dpram.v" type="file.verilog" enable="1"/>
+        <File path="src/scandoubler_new.v" type="file.verilog" enable="1"/>
+        <File path="src/spram.v" type="file.verilog" enable="1"/>
+        <File path="proms/moon_patrol_sound_prog.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/mpa-1.3m.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/mpa-2.3l.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/mpa-3.3k.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/mpa-4.3j.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/mpb-1.3n.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/mpb-2.3m.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/mpe-1.3l.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/mpe-2.3k.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/mpe-3.3h.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/mpe-4.3f.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/mpe-5.3e.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Graphics.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-MoonPatrol.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/YM2149_linmix_sep.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Z80.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/bitmap1_ctl.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/bitmap2_ctl.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/bitmap3_ctl.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/bitmapctl_e.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/clk_div.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_ALU.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_MCode.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_Pack.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_Reg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80s.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu68_GS_march_2020_falling_edge.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dac.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gen_ram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll1/gowin_rpll1.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll2/gowin_rpll2.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/io_ps2_keyboard.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/iremm52_video_controller.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kbd_joystick.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/moon_patrol_sound_board.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/mpatrol_top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pace.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pace_pkg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/platform.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/platform_pkg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/project_pkg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/sprite_array.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/sprite_pkg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/sprite_pkg_body.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/spritectl.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/spritereg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/target_pkg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/tilemapctl.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/tilemapctl_e.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/video_controller_pkg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/video_controller_pkg_body.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/video_mixer.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-MoonPatrol.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
